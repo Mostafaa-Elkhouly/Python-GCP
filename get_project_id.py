@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 
 def get_project_id():
     # Path to service account key JSON file.
-    service_account_key_path = '../service-account-key.json'
+    service_account_key_path = 'service-account-key.json'
     
     # Set the environment variable for authentication.
     os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = service_account_key_path
